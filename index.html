@@ -10,18 +10,23 @@
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
 </head>
-
-<body>	
-	<header class="container">
-		<div style="width: 100%; height: 150%">
-			
+	<header class="" style="width: 100%">
+	<a name="top"></a>
+	<div class="telephoneInTop">
+		<div class="telephoneInTopWrapperText">
+			<p>380686845687</p>
+			<p>simonovalex13@gmail.com</p>
 		</div>
-		<nav>
-			<a name="top"></a>
+		<!-- 380686845687
+		simonovalex13@gmail.com -->
+	</div>
+	<nav>
+		<div class="container">
 			<div class="row forNav">
 				<div class="three columns nav">
 					<a href="#about" class="navLink"><p>About me</p> </a>
@@ -35,21 +40,34 @@
 				<div class="three columns nav">
 					<a href="#contact" class="navLink"><p>Contact</p></a>
 				</div>
+		
 			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
+	<div style="width:100%; height:150px;">
+		
+	</div>
+</header>
+<body>	
+
 	<main class="container">
 	
-		<div class="row hero">
+		<div class=" hero">
 			<img src="./img/face.jpg" id="faceImg">
 			<h4 class="whiteText">I'm Simonov Alex</h4>
 			<h6 class="whiteText">front end developer, react js</h6>
-			<button type="submit" onclick="window.open('./Alex_Simonov.docx')" id="btnDown">Download CV</button>
+			<div class="">
+				<a href="https://vk.com/id221545467"><i class="fab fa-vk"></i></a>
+				<a href="https://github.com/SimonovAlex"><i class="fab fa-github"></i></a>
+			</div>
+			<div>
+				<a href='./Alex_Simonov.docx' id="download" download>Download CV</a>
+			</div>
 		</div>
 		<a name="about"></a>
 
 		<div class="row aboutMe whiteSegment">
-			<div class="six columns">
+			<div class="six columns indents">
 				<h2>About</h2>
 				<p>Hello, I am Simonov Alex, front end developer, react js bla-bla-bla</p>
 			</div>
@@ -62,7 +80,7 @@
 					</div>
 					<div class="eight columns">
 						<p>13 june 2000</p>
-					</div>
+					</div> 
 				</div>
 				<div class="row">
 					<div class="four columns">
@@ -91,7 +109,7 @@
 		<a name="skills"></a>
 		<div class="row skills whiteSegment">
 			
-			<div class="six columns">
+			<div class="six columns indents">
 				<h4>Skills</h4>
 				<ul>
 					<li>HTML</li>
@@ -118,19 +136,20 @@
 							</div>
 						</div>
 					</div>
-					<li>Skeleton</li>
-					<div class="skillBar">
-						<div class="skillBarProgresive" style="width: 50%">
-							<div class="skillBarPercent">
-								50%
-							</div>
-						</div>
-					</div>
+					
 					<li>React & Redux</li>
 					<div class="skillBar">
 						<div class="skillBarProgresive" style="width: 40%">
 							<div class="skillBarPercent" >
 								40%
+							</div>
+						</div>
+					</div>
+					<!-- <li>Skeleton</li>
+					<div class="skillBar">
+						<div class="skillBarProgresive" style="width: 50%">
+							<div class="skillBarPercent">
+								50%
 							</div>
 						</div>
 					</div>
@@ -149,7 +168,7 @@
 								50%
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</ul>
 			</div>
 			<div class="six columns">
@@ -157,9 +176,9 @@
 			</div>
 		</div>
 		<a name="experience"></a>
-		<div class="row Experience whiteSegment">
+		<div class="row Experience whiteSegment indents">
 			<h4>Work Experience</h4>
-			<div class="row">
+			<div class="row experienceRow">
 				<div class="two columns">
 					June 2018 -
 					December 2018
@@ -171,7 +190,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row experienceRow">
 				<div class="two columns">
 				
 					13 January 2019 -
@@ -185,7 +204,7 @@
 		</div>
 		<a name="contact"></a>
 
-		<div class="row contact whiteSegment">
+		<div class="row contact whiteSegment indents">
 			<h4>Contact Information</h4>
 			
 			<div class="row">
