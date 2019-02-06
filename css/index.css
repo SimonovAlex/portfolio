@@ -192,6 +192,10 @@ footer > p{
 	margin-right:  10%; 
 }
 
+.basicInf{
+	padding-left: 7px;
+}
+
 .telephoneInTop{
 	padding-top: 20px;
 	width: 100%;
@@ -199,7 +203,13 @@ footer > p{
 	background-color: #41b3cd;
 }
 
+h2{
+	padding-top: 10px;
+}
+
 h4{
+	padding-top: 10px;
+
 	font-weight: 300;
     line-height: 29.12px;
     font-size: 23px;
