@@ -157,6 +157,10 @@ ul > li {
 	.floatRight{
 		text-align: left ;
 	}
+
+	h2,h4{
+		text-align: center
+	}
 }
 
 footer{
@@ -214,7 +218,6 @@ h4{
     line-height: 29.12px;
     font-size: 23px;
 }
-
 
 
 
