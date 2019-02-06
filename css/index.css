@@ -9,6 +9,10 @@ body{
 	padding: 15px;
 }
 
+.nav:hover{
+	background-color: white;
+}
+
 .nav{
 	text-align: center;
 }
@@ -19,6 +23,7 @@ body{
 	width: 100%;
 
 }
+
 
 /*main, footer{
 	position:static  ;
@@ -91,6 +96,12 @@ header{
 
 #up{
 	/*background-color: #C0C0C0*/
+	background-color: white;
+	border: 1px solid black;
+    border-radius: 310px;
+    padding: 7px 0;
+
+
 	width: 30px;
 	position: fixed;
 	right:  50px;
@@ -124,6 +135,15 @@ ul > li {
 	height: 10px;
 	border-radius: 10px;
 	background-color: #4dbfd9;
+	animation-name: example;
+  	animation-duration: 2s;
+}
+
+
+@keyframes example  {
+	from {width: 0;}
+  	50% {width: 100%;}
+  	to {width: 50%;}
 }
 
 .skillBarPercent{
@@ -132,6 +152,8 @@ ul > li {
     align-items: center;
     font-size: 12px;
     font-weight: 600;
+
+    
 
 	position: relative;
 	right: -15px;
@@ -179,11 +201,13 @@ footer > p{
 	padding-left: 4%;
 	padding-bottom: 2%;
 }
+
 .indents ul >li{
 	font-weight: 700;
     line-height: 24.44px;
     margin: 0;
 }
+
 .telephoneInTopWrapperText > p{
 	margin: 0 ;
 	font-size: 18px;
