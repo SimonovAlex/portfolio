@@ -20,11 +20,11 @@ body{
 
 }
 
-main{
-	position:relative ;
+/*main, footer{
+	position:static  ;
 	top: -100px; 
 }
-
+*/
 .forNav{
 	background-color: #4dbfd9;
 	box-shadow:0 0 10px rgba(0,0,0,0.5);
@@ -164,7 +164,7 @@ footer{
 	height: 50px;
 	text-align: center;
 	position:relative ;
-	top: -100px; 
+	/*top: -100px; */
 }
 
 footer > p{
@@ -256,8 +256,12 @@ div a#download:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2
 div a#download:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
 div a#download:hover {background: rgba(255,255,255,.2);}
 
+.experienceRow{
+	padding: 10px 25px ;
+}
 
 .experienceRow:hover{
+
 	background-color: #4dbfd9;
 	color: white;
 	box-shadow:0 0 10px rgba(0,0,0,0.5);
