@@ -100,7 +100,7 @@ header{
 #up{
 	/*background-color: #C0C0C0*/
 	background-color: white;
-	border: 1px solid black;
+	
     border-radius: 310px;
     padding: 7px 0;
 
@@ -147,14 +147,44 @@ ul > li {
 }
 
 
-@keyframes Animate  {
-	from {width: 100%;}
+@keyframes Animate5  {
+	from {width: 5%;}
   	50% {width: 0%;}
-  	to {width: 100%;}
+  	to {width: 5%;}
 }
 
-.persentAnimate{
-	animation-name: Animate;
+.persentAnimate5{
+	animation-name: Animate5;
+}
+
+@keyframes Animate10  {
+	from {width: 10%;}
+  	50% {width: 0%;}
+  	to {width: 10%;}
+}
+
+.persentAnimate10{
+	animation-name: Animate10;
+}
+
+@keyframes Animate70  {
+	from {width: 70%;}
+  	50% {width: 0%;}
+  	to {width: 70%;}
+}
+
+.persentAnimate70{
+	animation-name: Animate70;
+}
+
+@keyframes Animate15  {
+	from {width: 15%;}
+  	50% {width: 0%;}
+  	to {width: 15%;}
+}
+
+.persentAnimate15{
+	animation-name: Animate15;
 }
 
 .skillBarPercent{
