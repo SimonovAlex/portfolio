@@ -335,9 +335,12 @@ div a#download:hover {background: rgba(255,255,255,.2);}
 }
 
 .experienceRow:hover{
-
 	background-color: #4dbfd9;
 	color: white;
 	box-shadow:0 0 10px rgba(0,0,0,0.5);
 	
+}
+
+.experienceRow:hover #myPetProject{
+	color: black;
 }
